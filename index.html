@@ -1,0 +1,385 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trace - Landing Page</title>
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/offcanvas-navbar.css" rel="stylesheet">
+        <!-- MY STYLES -->
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <!-- NAVIGATION -->
+            <nav class="navbar top-navbar navbar-primary navbar-expand-lg fixed-top" aria-label="Main navigation">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#discover">Discover</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#why-choose-us">Why Choose Us</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav d-flex text-center">
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="submit" class="btn btn-primary btn-navbar btn-block">Register</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- NAVIGATION END -->
+
+            <!-- HERO SECTION -->
+            <div class="hero">
+                <div class="container hero-container mb-4">
+                    <div class="row hero__content p-2 p-sm-0">
+                        <div class="welcome-text col-md-6">
+                            <h2>Welcome to</h1>
+                            <h1 class="display-4">Indonesia</h1>
+                            <p class="pt-4">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p->
+                        </div>
+                        <div class="fun-fact col-md-6 p-2 my-auto">
+                            <div class="row row-cols-2">
+                                <div class="col">
+                                    <span>95,181 km</span>
+                                    <p>Coaslline</p>
+                                </div>
+                                <div class="col">
+                                    <span>1,340</p>
+                                    <p>Ethnic Groups</p>
+                                </div>
+                                <div class="col">
+                                    <span>17.504</span>
+                                    <p>Islands</p>
+                                </div>
+                                <div class="col">
+                                    <span>127</span>
+                                    <p>Actives Volcano</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="row py-3 px-2 hero__form mx-3">
+                        <div class="col-md-auto">
+                            <label for="categories" class="visually-hidden">Categories</label>
+                            <select id="categories">
+                                <option selected>All Categories</option>
+                                <option value="">Beach</option>
+                                <option value="">Nature</option>
+                                <option value="">Town and Cities</option>
+                                <option value="">Mountain</option>
+                                <option value="">Culture and Heritage</option>
+                            </select>
+                        </div>
+                        <div class="col-md-auto">
+                            <label for="location" class="visually-hidden">Location</label>
+                            <select id="location">
+                                <option selected>All Location</option>
+                                <option value="">Bali</option>
+                                <option value="">Jakarta</option>
+                                <option value="">Surabaya</option>
+                                <option value="">Yogyakarta</option>
+                                <option value="">Bandung</option>
+                                <option value="">Lombok</option>
+                                <option value="">Batam</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <label for="date" class="visually-hidden">Date</label>
+                            <input type="date" id="date" placeholder="Date">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary btn-block">Explore</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </section>
+            <!-- HERO SECTION END -->
+        </header>
+
+        <!-- HERO -->
+        <main>
+            <!-- DISCOVER SECTION -->
+            <section class="discover container" style="padding-top: 6rem;" id="discover">
+                <h2>Discover weekly</h2>
+                <div class="row pt-4">
+                    <div class="col-md-3 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-heading">
+                                <img class="card-img" src="images/discover/beach.jpg" alt="...">
+                                <span class="rating"><i class="fa-solid fa-star"></i>&nbsp;4.5</span>
+                                <span class="love"><i class="fa-regular fa-heart"></i></span>
+                                <div class="card-text-overlay">
+                                    <h5>Kelingking Beach</h5>
+                                    <p>Bali</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row price">
+                                    <div class="col-lg-6">Rp. 2jt</div>
+                                    <div class="col-lg-6 text-lg-end">2 Adults</div>
+                                </div>
+                                <hr>
+                                <div class="row days">
+                                    <div class="col-md-12 text-center"><i class="fa-regular fa-calendar"></i>&nbsp; 3 Days Trip</div>
+                                </div>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-heading">
+                                <img class="card-img" src="images/discover/town.jpg" alt="...">
+                                <span class="rating"><i class="fa-solid fa-star"></i>&nbsp;4.5</span>
+                                <span class="love"><i class="fa-regular fa-heart"></i></span>
+                                <div class="card-text-overlay">
+                                    <h5>Sudirman Street</h5>
+                                    <p>Jakarta</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row price">
+                                    <div class="col-lg-6">Rp. 2jt</div>
+                                    <div class="col-lg-6 text-lg-end">2 Adults</div>
+                                </div>
+                                <hr>
+                                <div class="row days">
+                                    <div class="col-md-12 text-center"><i class="fa-regular fa-calendar"></i>&nbsp; 3 Days Trip</div>
+                                </div>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-heading">
+                                <img class="card-img" src="images/discover/mountain.jpg" alt="...">
+                                <span class="rating"><i class="fa-solid fa-star"></i>&nbsp;4.5</span>
+                                <span class="love"><i class="fa-regular fa-heart"></i></span>
+                                <div class="card-text-overlay">
+                                    <h5>Gunung Bromo</h5>
+                                    <p>Malang</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row price">
+                                    <div class="col-lg-6">Rp. 2jt</div>
+                                    <div class="col-lg-6 text-lg-end">2 Adults</div>
+                                </div>
+                                <hr>
+                                <div class="row days">
+                                    <div class="col-md-12 text-center"><i class="fa-regular fa-calendar"></i>&nbsp; 3 Days Trip</div>
+                                </div>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-heading">
+                                <img class="card-img" src="images/discover/heritage.jpg" alt="...">
+                                <span class="rating"><i class="fa-solid fa-star"></i>&nbsp;4.5</span>
+                                <span class="love"><i class="fa-regular fa-heart"></i></span>
+                                <div class="card-text-overlay">
+                                    <h5>Candi Prambanan</h5>
+                                    <p>Yogyakarta</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row price">
+                                    <div class="col-lg-6">Rp. 2jt</div>
+                                    <div class="col-lg-6 text-lg-end">2 Adults</div>
+                                </div>
+                                <hr>
+                                <div class="row days">
+                                    <div class="col-md-12 text-center"><i class="fa-regular fa-calendar"></i>&nbsp; 3 Days Trip</div>
+                                </div>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center pt-5">
+                    <div class="col-12">
+                        <button class="btn btn-outline-primary">Show All</button>
+                    </div>
+                </div>
+                
+            </section>
+            <!-- DISCOVER SECTION END -->
+
+            <!-- ABOUT SECTION -->
+            <section class="about container" style="padding-top: 4rem;" id="about">
+                <div class="pt-5">
+                    <div class="about-box row pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-sm">
+                        <div class="col-lg-5 p-3 overflow-hidden shadow-lg align-self-start">
+                            <img class="mx-auto" src="./images/logo.svg" alt="">
+                        </div>
+                        <div class="col-lg-7 p-4 p-lg-5 pt-lg-0">
+                            <h1 class="fw-black lh-1">#1</h1>
+                            <h3 class="mb-2">Travel service to explore Indonesia</h3>
+                            <p class="dark">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                            <div class="row mt-5">
+                                <div class="col-auto mb-3">
+                                    <i class="pe-1 fa-solid fa-building fa-2xl"></i><span>1,976</span> Hotels
+                                </div>
+                                <div class="col-auto mb-3">
+                                    <i class="pe-1 fa-solid fa-location-dot fa-2xl"></i><span>524</span> City
+                                </div>
+                                <div class="col-auto mb-3">
+                                    <i class="pe-1 fa-solid fa-gem fa-2xl"></i><span>856</span> Treasure
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- ABOUT SECTION END -->
+
+            <!-- FEATURES SECTION -->
+            <section class="features container pb-5" style="padding-top: 3rem;" id="why-choose-us">
+                <div class="pt-5">
+                    <h2>Why Choose Us</h2>
+                    <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 rounded-3 p-3">
+                                <img src="./images/choice.svg" alt="">
+                            </div>
+                            <h3 class="fs-4">Lots of Choice</h3>
+                            <p class="dark">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                            <a href="#" class="icon-link d-inline-flex align-items-center text-decoration-none fw-bold">
+                                Read more
+                                <span class="icon-arrow px-1"><i class="fa-solid fa-angles-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 rounded-3 p-3">
+                                <img src="./images/tour.svg" alt="">
+                            </div>
+                            <h3 class="fs-4">Best Tour Guide</h4>
+                            <p class="dark">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                            <a href="#" class="icon-link d-inline-flex align-items-center text-decoration-none fw-bold">
+                                Read more
+                                <span class="icon-arrow px-1"><i class="fa-solid fa-angles-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3 rounded-3 p-3">
+                                <img src="./images/ticket-discount.svg" alt="">
+                            </div>
+                            <h3 class="fs-4">Easy Booking</h3>
+                            <p class="dark">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                            <a href="#" class="icon-link d-inline-flex align-items-center text-decoration-none fw-bold">
+                                Read more
+                                <span class="icon-arrow px-1"><i class="fa-solid fa-angles-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FEATURE SECTION END -->
+
+            <!-- APP SECTION-->
+            <section class="mobile-app">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="link-box col-md-6">
+                            <h1 class="mb-4 text-light fw-bold">Get the best experience in our app.</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, voluptatum!</p>
+                            <div class="row">
+                                <a href="" class="store-link"><img class="play-store-img" src="./images/google-play-badge.png" alt=""></a>
+                                <a href="" class="store-link"><img class="app-store-img" src="./images/app-store.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="phone-box col-md-6">
+                            <img class="phone" src="./images/phone.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- APP SECTION END -->
+
+            <!-- FOOTER -->
+            <div class="container">
+                <footer class="pt-5">
+                    <div class="row">
+                
+                        <div class="col-6 col-md-4 mb-3">
+                            <h5>Trace</h5>
+                            <p class="dark">Jl. Jalan No. 13 Kemayoran, DKI Jakarta</p>
+                            <p class="dark"><i class="fa-solid fa-phone me-2"></i> (+21) 087 654</p>
+                            <p class="dark"><i class="fa-solid fa-envelope me-2"></i> trace.official@email.com</p>
+                        </div>
+                
+                        <div class="col-6 col-md-2 mb-3">
+                            <h5>Pages</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Discover</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Why Choose Us</a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="col-md-5 offset-md-1 mb-3">
+                            <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p class="dark">Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                
+                    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
+                        <p class="dark">&copy; 2022 Company, Inc. All rights reserved.</p>
+                        <ul class="list-unstyled d-flex social-list">
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+            <!-- FOOTER END -->
+        </main>
+        <script src="https://kit.fontawesome.com/91694f3b7f.js" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/offcanvas-navbar.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+    </html>
