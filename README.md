@@ -1,7 +1,7 @@
 # Trace Travel
 
 Ini merupakan project saya setelah belajar Framework Bootstrap
-[Demo](https://septiancahya.github.io/trace-travel.github.io/)
+[Demo](https://septiancahya.github.io/trace-travel/)
 
 ## Deskripsi
 
